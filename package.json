@@ -1,0 +1,28 @@
+{
+  "name": "html5-javascript-slot",
+  "version": "1.0.0",
+  "description": "Slot machine written on HTML5 (Canvas) and raw JavaScript",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yborunov/html5-javascript-slot.git"
+  },
+  "keywords": [
+    "slot",
+    "html5",
+    "canvas",
+    "javascript"
+  ],
+  "author": "Yuri Borunov <yuri@borunov.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yborunov/html5-javascript-slot/issues"
+  },
+  "homepage": "https://github.com/yborunov/html5-javascript-slot",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-uglify": "^0.8.1"
+  }
+}
