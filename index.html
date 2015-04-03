@@ -2,25 +2,48 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	
 	<title>Slot Machine</title>
 	<meta name="author" content="mailto:yuri@borunov.com">
 
 	<style>
-		html,body,#main {width:100%;}
-		#gameCanvas {border:5px solid black;}
-		input {font-size:1.5em;}
-		#butAgain {display:none;}
+		html, 
+		body, 
+		#main { 
+			width: 100%; 
+		}
+		
+		#gameCanvas {
+			border: 5px solid black;
+		}
+		
+		input {
+			font-size: 1.5em;
+		}
+		
+		#butAgain {
+			display: none;
+		}
 	</style>
+
 </head>
 <body>
+	
 	<div id="main">
+		
 		<h1>Play game, have fun!</h1>
+		
 		<div id="notification"></div>
+		
 		<canvas width="365" height="219" id="gameCanvas"></canvas>
+		
 		<br>
+		
 		<input type="button" value="Play again" id="butAgain">
+	
 	</div>
 
-	<script src="app.js"></script>
+	<script src="app.min.js"></script>
+
 </body>
 </html>
